@@ -21,7 +21,7 @@ elHero.addEventListener("mousemove", shadowMove);
 elHero.addEventListener("mouseout", ()=> {
   elHeading.style.textShadow = `0px 0px 10px rgba(255,0,0,7)`
 });
-elHero.addEventListener("touchmove", shadowMove);
+elHero.addEventListener("touchstart", shadowMove);
 elHero.addEventListener("touchend", ()=> {
   elHeading.style.textShadow = `0px 0px 10px rgba(255,0,0,7)`
 });
